@@ -1,0 +1,5 @@
+fonts/
+node_modules/
+.vscode
+scss/
+prepros-6.config
