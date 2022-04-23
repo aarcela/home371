@@ -28,10 +28,11 @@
       fadeOut(loader);
       fadeOut(overlay);
     };
-    // setTimeout(function() {
-    // 	fadeOut(loader);
-    // 	fadeOut(overlay);
-    // }, 200);
+
+    setTimeout(function () {
+      fadeOut(loader);
+      fadeOut(overlay);
+    }, 200);
   };
   preloader();
 
@@ -117,3 +118,16 @@
   };
   lightbox();
 })();
+
+window.onload = function () {
+  // var elem = document.querySelector(".masonry_container");
+  // var msnry = new Masonry(elem, {
+  //   // options
+  //   // itemSelector: ".w-100",
+  //   // columnWidth: 200
+  // });
+
+  var msnry = new Masonry(".masonry_container", {
+    // options
+  });
+};
