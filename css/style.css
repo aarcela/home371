@@ -7782,7 +7782,9 @@ textarea.form-control-lg {
 
 @media (max-width: 575.98px) {
   .site-nav {
-    background-color: #5D4586; } }
+    background-color: #5D4586; }
+  .site-nav-wrap > li {
+    text-align: center !important; } }
 
 body {
   font-family: "Roboto", sans-serif;
@@ -8500,10 +8502,14 @@ a {
   margin-top: 2rem; }
 
 .testimony-section {
-  top: -7rem;
+  top: -12rem;
   z-index: -1; }
   .testimony-section h2, .testimony-section .h2, .testimony-section span {
     color: white; }
+
+@media (max-width: 575.98px) {
+  .special_square {
+    right: 0 !important; } }
 
 .site-footer {
   background-image: url("/images/bg_footer.png");
