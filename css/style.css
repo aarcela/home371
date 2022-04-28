@@ -7,6 +7,8 @@ Group 371
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+@import url(../css/aos.css);
+@import url(../css/tiny-slider.css);
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -8512,7 +8514,7 @@ a {
     right: 0 !important; } }
 
 .site-footer {
-  background-image: url("/images/bg_footer.png");
+  background-image: url("../images/bg_footer.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
