@@ -8,4 +8,4 @@ Home page of Group371
 
 # Complie CSS with esbuild
 
-./node_modules/.bin/esbuild css/style.css --bundle --minify --loader:.png=dataurl --outfile=./css/out.css
+./node_modules/.bin/esbuild css/style.css --bundle --minify --loader:.webp=dataurl --outfile=./css/out.css
