@@ -8137,13 +8137,8 @@ a {
   display: none; }
 
 .section-contact {
-  background-color: #efefef;
-  z-index: 9;
-  position: relative;
-  margin-top: -100px !important; }
-  @media (max-width: 767.98px) {
-    .section-contact {
-      margin-top: 0 !important; } }
+  background-color: #5D4586;
+  color: white; }
 
 .form-contact {
   background-color: #E5E5E5;
