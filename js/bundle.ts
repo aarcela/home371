@@ -1,6 +1,6 @@
 // import "./aos"
-import './counter'
 import './custom'
+import './counter'
 import './navbar'
 import './tiny-slider'
 import './glightbox.min.js'

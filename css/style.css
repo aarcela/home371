@@ -8508,6 +8508,16 @@ a {
   .special_square {
     right: 0 !important; } }
 
+#all-cards div {
+  position: relative;
+  height: 70vh; }
+
+#all-cards button {
+  border-radius: 1rem;
+  bottom: 0;
+  position: absolute;
+  right: 0; }
+
 .site-footer {
   background-image: url("../images/bg_footer.webp");
   background-repeat: no-repeat;

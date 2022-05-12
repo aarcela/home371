@@ -17,8 +17,8 @@
 		rel="stylesheet">
 
 	<link rel="stylesheet" href="fonts/icomoon/style.css">
-	<link rel="stylesheet" href="css/glightbox.min.css">
 	<link rel="stylesheet" href="css/out.css">
+	<!-- <link rel="stylesheet" href="css/glightbox.min.css"> -->
 	<!-- <link rel="stylesheet" href="fonts/feather/style.css"> -->
 	<!-- <link rel="stylesheet" href="css/tiny-slider.css"> -->
 	<!-- <link rel="stylesheet" href="css/aos.css"> -->
@@ -139,35 +139,166 @@
 		</div>
 	</section>
 	<div class="container">
-		<div class="row text-center w-100">
-			<div class="col-md-3 col-sm-12">
+		<div class="row text-center w-100 " id="all-cards">
+			<div class="col-md-3 col-sm-12  " name="design">
 				<img src="/images/services/servicios_icon_diseño.webp" class="img-fluid" alt="design">
 				<br>
 				<h3>Diseño Gráfico</h3>
 				<p>Esa idea que tienes la llevamos a lo digital, le damos forma y fondo a lo que quieres que conozcan de
 					ti y siempre cuenta con un respaldo de imágenes y textos con sentido.</p>
+				<button class="btn btn-outline-dark d-flex align-items-end " onclick="cardSelected('design')">Ver
+					más</button>
 			</div>
-			<div class="col-md-3  col-sm-12">
+			<div class="col-md-3  col-sm-12    " name="develop">
 				<img src="/images/services/servicios_icon_desarrollo.webp" class="img-fluid" alt="develop">
 				<br>
 				<h3>Dev Web/Mobile</h3>
 				<p>El desarrollo, creación de lenguaje y mantenimiento de tu presencia en la web, no nos queda grande y
 					haremos de ellos una experiencia de mejor tránsito.</p>
+				<button class="btn btn-outline-dark d-flex align-items-end " onclick="cardSelected('develop')">Ver
+					más</button>
 			</div>
-			<div class="col-md-3  col-sm-12">
+			<div class="col-md-3  col-sm-12   " name="ui/ux">
 				<img src="/images/services/servicios_icon_uxui.webp" class="img-fluid" alt="ui/ux">
 				<br>
 				<h3>Diseño UX/UI</h3>
 				<p>Todos podemos crear una App. Si se te ocurrió, nosotros lo hacemos realidad por ti de una manera
 					dinámica, sostenible e interesante.</p>
+				<button class="btn btn-outline-dark d-flex align-items-end " onclick="cardSelected('uiux')">Ver
+					más</button>
 			</div>
-			<div class="col-md-3 col-sm-12">
+			<div class="col-md-3 col-sm-12  " name="marketing">
 				<img src="/images/services/servicios_icon_mkt.webp" class="img-fluid" alt="marketing">
 				<br>
 				<h3>Marketing Digital</h3>
 				<p>Qué existas en las plataformas digitales como redes sociales es una cosa, que vayas de la mano con
 					nosotros y te orientemos a qué esa presencia se demuestre en execelentes resultados es lo
 					importante. </p>
+				<button class="btn btn-outline-dark d-flex align-items-end " onclick="cardSelected('marketing')">Ver
+					más</button>
+			</div>
+		</div>
+		<div class="row text-center w-100 individual-card" id="marketing">
+			<div class="col-md-8 ">
+				<div class="col-md-12 mb-3">
+					<img src="/images/services/servicios_icon_mkt.webp" width="40%" alt="marketing">
+				</div>
+			</div>
+			<div class="col-md-4">
+				<h2>Marketing Digital</h2>
+				<p class="text-justify">Qué existas en las plataformas digitales como redes sociales es una cosa, que
+					vayas de la mano con
+					nosotros y te orientemos a qué esa presencia se demuestre en execelentes resultados es lo
+					importante.
+					Te brindamos la asesoría necesaria para llevar tu idea al mundo de las redes sociales a través de
+					las distintas plataformas y ayudarte con la mejor estrategia, administración y gestión de tu
+					contenido para obtener resultados óptimos y viables.</p>
+			</div>
+			<div class="col-md-3">
+				<img src="/images/services/servicios_icon_diseño.webp" onclick="cardSelected('design')"
+					class="img-fluid" alt="design">
+			</div>
+			<div class="col-md-3">
+				<img src="/images/services/servicios_icon_desarrollo.webp" onclick="cardSelected('develop')"
+					class="img-fluid" alt="develop">
+			</div>
+			<div class="col-md-3">
+				<img src="/images/services/servicios_icon_uxui.webp" onclick="cardSelected('uiux')" class="img-fluid"
+					alt="ux/ui">
+			</div>
+		</div>
+		<div class="row text-center w-100 individual-card" id="design">
+			<div class="col-md-8">
+				<div class="col-md-12 mb-3">
+					<img src="/images/services/servicios_icon_diseño.webp" width="40%" alt="design">
+				</div>
+			</div>
+			<div class="col-md-4">
+
+				<h2>Diseño Gráfico</h2>
+				<p class="text-justify">Esa idea que tienes la llevamos a lo digital, le damos forma y fondo a lo que
+					quieres que conozcan
+					de ti y siempre cuenta con un respaldo de imágenes y textos con sentido.
+
+					Nos encargamos de brindarte las infinitas posibilidades de darle vida a tus ideas de una manera
+					cercana, fresca y que lleve el concepto de lo que quieres dar a conocer. Te aceptamos los cambios,
+					te mostramos diferentes perspectivas e ideas para tu identidad corporativa o personal. Las
+					posibilidades con nuestra ayuda nunca estarán limitadas
+				</p>
+			</div>
+			<div class="col-md-3">
+				<img src="/images/services/servicios_icon_desarrollo.webp" onclick="cardSelected('develop')"
+					class="img-fluid" alt="develop">
+			</div>
+			<div class="col-md-3">
+				<img src="/images/services/servicios_icon_uxui.webp" onclick="cardSelected('uiux')" class="img-fluid"
+					alt="ux/ui">
+			</div>
+			<div class="col-md-3">
+				<img src="/images/services/servicios_icon_mkt.webp" onclick="cardSelected('marketing')"
+					class="img-fluid" alt="marketing">
+			</div>
+		</div>
+		<div class="row text-center w-100 individual-card" id="develop">
+			<div class="col-md-8">
+				<div class="col-md-12 mb-3">
+					<img src="/images/services/servicios_icon_desarrollo.webp" width="40%" alt="develop">
+				</div>
+			</div>
+			<div class="col-md-4 text-justif">
+
+				<h2>Desarrollo Web/Mobile</h2>
+				<p class="text-justify">El desarrollo, creación de lenguaje y mantenimiento de tu presencia en la web,
+					no nos queda grande y
+					haremos de ellos una experiencia de mejor tránsito.
+
+					Los códigos y diferentes comandos detrás de escena, son cosa de nosotros, tú deja que tus ideas
+					vayan por delante y estaremos para construir tu presencia en el Internet y tenga el Impacto que
+					requieres y te identifique.
+				</p>
+			</div>
+			<div class="col-md-3">
+				<img src="/images/services/servicios_icon_mkt.webp" onclick="cardSelected('marketing')"
+					class="img-fluid" alt="marketing">
+			</div>
+			<div class="col-md-3">
+				<img src="/images/services/servicios_icon_uxui.webp" onclick="cardSelected('uiux')" class="img-fluid"
+					alt="ux/ui">
+			</div>
+			<div class="col-md-3">
+				<img src="/images/services/servicios_icon_diseño.webp" onclick="cardSelected('design')"
+					class="img-fluid" alt="design">
+			</div>
+		</div>
+		<div class="row text-center w-100 individual-card" id="uiux">
+			<div class="col-md-8">
+				<div class="col-md-12 mb-3">
+					<img src="/images/services/servicios_icon_uxui.webp" width="40%" alt="ui/ux">
+				</div>
+			</div>
+			<div class="col-md-4">
+
+				<h2>UX / UI </h2>
+				<p class="text-justify">Todos podemos crear una App. Si se te ocurrió, nosotros lo hacemos realidad por
+					ti de una manera
+					dinámica, sostenible e interesante.
+
+					Somos creadores de la mezcla de procesos de desarrollo, negocios y diseño , y bases sobre las que
+					construir esa aplicación que pensaste, su apariencia y esbozar cómo será la navegación y usabilidad
+					de ésta.
+				</p>
+			</div>
+			<div class="col-md-3">
+				<img src="/images/services/servicios_icon_mkt.webp" onclick="cardSelected('marketing')"
+					class="img-fluid" alt="marketing">
+			</div>
+			<div class="col-md-3">
+				<img src="/images/services/servicios_icon_desarrollo.webp" onclick="cardSelected('develop')"
+					class="img-fluid" alt="desarrollo">
+			</div>
+			<div class="col-md-3">
+				<img src="/images/services/servicios_icon_diseño.webp" onclick="cardSelected('design')"
+					class="img-fluid" alt="design">
 			</div>
 		</div>
 	</div>
@@ -234,7 +365,7 @@
 					<a href="images/portfolio/cnea.png" class="media-1 glightbox">
 						<img src="images/portfolio/cnea.png" alt="cna" class="w-100">
 						<div class="media-1-content">
-							<h2>CNA</h2>
+							<h2>CNEA</h2>
 							<span class="category">UCV</span>
 						</div>
 					</a>
@@ -639,27 +770,29 @@
 				</div>
 
 				<div class="col-md-6 col-sm-12">
-					<form action="" class="form-contact">
+					<form action="mailto:arcela34@gmail.com" class="form-contact" method="post"
+						enctype=”multipart/form-data” name="contactForm">
 						<div class="row">
 							<div class="col-12">
 								<div class="form-group">
-									<input type="text" class="form-control" placeholder="Nombre">
+									<input type="text" class="form-control" name="nombreCliente" placeholder="Nombre">
 								</div>
 							</div>
 							<div class="col-12">
 								<div class="form-group">
-									<input type="email" class="form-control" placeholder="Email">
+									<input type="email" class="form-control" name="emailCliente" placeholder="Email">
 								</div>
 							</div>
 							<div class="col-12">
 								<div class="form-group">
-									<input type="text" class="form-control" placeholder="Teléfono">
+									<input type="text" class="form-control" name="telefonoCliente"
+										placeholder="Teléfono">
 								</div>
 							</div>
 							<div class="col-12">
 								<div class="form-group">
-									<textarea type="text" class="form-control" placeholder="Mensaje"
-										maxlength="250"></textarea>
+									<textarea type="text" class="form-control" name="mensajeCliente"
+										placeholder="Mensaje" maxlength="250"></textarea>
 								</div>
 							</div>
 
@@ -736,15 +869,15 @@
 		</div>
 	</div>
 
-	<!-- <script src="js/tiny-slider.js"></script>
 
-		<script src="js/navbar.js"></script>
-		<script src="js/custom.js"></script> -->
-	<script src="js/bootstrap.bundle.min.js"></script>
-	<script src="js/glightbox.min.js"></script>
-	<script src="js/masonry.pkfd.min.js"></script>
 	<script src="js/aos.js"></script>
-	<script src="js/out.js"></script>
+	<script src="js/glightbox.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/masonry.pkfd.min.js"></script>
+	<!-- <script src="js/tiny-slider.js"></script> -->
+	<!-- <script src="js/navbar.js"></script> -->
+	<script src="js/custom.js"></script>
+	<!-- <script src="js/out.js"></script> -->
 	<!-- <script src="js/rellax.min.js"></script> -->
 </body>
 
